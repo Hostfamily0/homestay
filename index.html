@@ -31,6 +31,40 @@
         overflow-x: hidden; /* Prevents horizontal scrolling in the document */
         
     }
+    .content p {
+      background-color: #ffffff;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+  
+    }
+    
+    .content p{
+      text-align: center;
+      padding: 20px; /* Add padding for better spacing */
+      width: 60%; /* Adjust the width as needed */
+      margin: 0 auto; /* Center the container horizontally */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+      margin-bottom: 30px;
+      margin-bottom: 20px;
+      max-width: 70vh;
+      color: #000000;
+
+    }
+    .box-1 p{
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color: #217dbb;
+      margin-bottom: 30px;
+
+    }
+  
 
     header {
       font-family: "Montserrat", sans-serif;
@@ -178,6 +212,21 @@
       color: #333;
       text-align: center; /* Center the text for responsiveness */
   }
+
+  .box-1{
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Add a shadow */
+    padding: 20px; /* Add padding for better spacing */
+    width: 40%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family:var(--black);
+    font-size: medium;
+}
 
   .box-12 {
   
@@ -464,6 +513,21 @@
   color: #333;
   text-align: left; /* Center the text for responsiveness */
 }
+.box-1{
+  text-align: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Add a shadow */
+  padding: 20px; /* Add padding for better spacing */
+  width: 40%; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+}
+
+
 
 .box-2 {
   
@@ -526,6 +590,19 @@
     margin-bottom: 20px;
   }
 
+  .box-1{
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Add a shadow */
+    padding: 20px; /* Add padding for better spacing */
+    width: 40%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
   .box-2 {
   
     text-align: center;
@@ -572,6 +649,21 @@
 
   }
 
+  .box-1{
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Add a shadow */
+    padding: 20px; /* Add padding for better spacing */
+    width: 40%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+  
+
   .box-2 {
   
     text-align: center;
@@ -586,11 +678,24 @@
     margin-bottom: 30px;
 }
 }
-    
   /* Media query for smaller screens */
   @media only screen and (max-width: 768px) {
     header {
       min-height: 80vh; /* Adjust the height for smaller screens */
+    }
+    .box-1{
+
+      text-align: center;
+      padding: 20px; /* Add padding for better spacing */
+      width: 60%; /* Adjust the width as needed */
+      margin: 0 auto; /* Center the container horizontally */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+      margin-bottom: 30px;
+      margin-bottom: 20px;
+
     }
 
     .box-2 {
@@ -645,7 +750,15 @@
 
         <p>period from 1 week to  weeks, or several months to a year</p>
     </div>
-
+  
+    <button type="button" class="box-1">About us⇩</button>
+    <div class="content">
+      <p>Access Canada Study Abroad Center has offices in Toronto and Montreal, and is a company that arranges overseas study-related services such as homestays, 
+        ESL, public high schools, and airport transfers for Japanese students. Since its establishment in 2002, it has partnered with Japan's largest study abroad 
+        agents and has been accepting many students every year. Staff members are always available to support students, providing orientation upon arrival and 24-hour 
+        customer service, ensuring that students can live abroad with peace of mind. We are currently recruiting homestay families in the Toronto, Montreal, and Ottawa areas, 
+        so if you have a warm family willing to welcome Japanese students as part of their family, please feel free to contact us.</p>
+    </div>
     <div class="box-2">
         <div class="text-2">
           <img src="study.jpeg" alt="image" class="image">
@@ -705,11 +818,6 @@
         </div>
       </div>
 
-    <div class="container-6">
-        <h1>About us</h1>
-        <p>Access Canada Study Abroad Center has offices in Toronto and Montreal. They arrange homestays, ESL programs, enrollment in public high schools, airport transfers, and other arrangements related to studying abroad for Japanese students. Since its establishment in 2002, they have partnered with Japan's largest study abroad agents and have been welcoming many students every year. Staff members are always available to support students to ensure they can live comfortably overseas, offering services such as orientation upon arrival and 24-hour customer service. They are currently recruiting homestay families in the Toronto, Montreal, and Ottawa areas. If there are families willing to warmly welcome Japanese students as part of their family, please contact them.</p>
-    
-      
       <div class="container-6">
         <h1>Contact us</h1>
         <h2>Access Canada Ryugaku Centre</h2>
@@ -717,4 +825,21 @@
         <p>Tell: 437-427-7920</p>
 
         </div>
+</div>
+        <script>
+          var coll = document.getElementsByClassName("box-1");
+          var i;
+          
+          for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+              this.classList.toggle("active");
+              var content = this.nextElementSibling;
+              if (content.style.display === "block") {
+                content.style.display = "none";
+              } else {
+                content.style.display = "block";
+              }
+            });
+          }
+          </script>
         </html>
