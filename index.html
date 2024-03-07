@@ -32,6 +32,27 @@
         
     }
 
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      color: #000;
+    }
+    
+    
+    li {
+      float: left;
+      color: #000;
+    }
+    
+    li a {
+      display: block;
+      padding: 8px;
+      background-color: #dddddd;
+      color: #000;
+    }
+
      p{
     margin-bottom: 10px;
     text-align: center; /* Center the text for responsiveness */
@@ -46,6 +67,7 @@
       text-align: left;
       outline: none;
       font-size: 15px;
+      margin-bottom: 30px;
   
     }
     
@@ -118,6 +140,7 @@
       padding: 20px; /* Add padding for better spacing */
       width: 60%; /* Adjust the width as needed */
       margin: 0 auto; /* Center the container horizontally */
+       
     }
     
     .container h1 {
@@ -130,7 +153,30 @@
     .container p{
   text-align: center;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
+  
+}
+
+
+.c{
+  text-align: center;
+  padding: 20px; /* Add padding for better spacing */
+  width: 60%; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+   
+}
+
+.c h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #217dbb;
+  margin-bottom: 30px;
+}
+
+
+.c p{
+text-align: center;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin-bottom: 40px;
+}
 
     .container-2{
       text-align: center;
@@ -192,7 +238,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      margin-top: 20px;
+      margin-top: 40px;
       margin-bottom: 30px;
   }
 
@@ -270,8 +316,8 @@
       margin-bottom: 30px;
   }
 
-  .container-4 h1{
-      color: #217dbb;
+  .container-4 {
+      color: #ff0000;
       margin-bottom: 40px;
   }
 
@@ -433,11 +479,12 @@
 
     .button {
         display: inline-block;
-        padding: 10px 20px;
-        background-color: #626262; /* Button background color */
+        padding: 10px 10px 10px  30px 30px;
+        background-color: #ff0000; /* Button background color */
         color: #fff; /* Text color */
         text-decoration: none; /* Remove underline */
         border: none;
+        text-align: center;
         border-radius: 5px; /* Rounded corners */
         font-size: 16px;
         cursor: pointer;
@@ -740,7 +787,6 @@
 
 <header>
 
-
     <div class="text-box-1">
         <h1>HOST FAMILIES WANTED!!</h1>
     </header>
@@ -748,19 +794,20 @@
     <div class="container">
     <h1>Become a host family</h1>
     <p>Would you like to become host family for international students from Japan?</p>
-    <p>If some requirements ments are met, you can apply to a host family.Japanese study abroad agency is looking for 
-    a Homestay host families in Toronto ( GTA ) Ottawa, Montreal.
+    <p>If some requirements ments are met, you can apply to a host family.</p>
+      <p>Japanese study abroad agency is looking for 
+    a Homestay host families in Toronto ( GTA ) Ottawa, Montreal.</p>
 </p>
     </div>
   
-    <button type="button" class="box-1"><h1>About us</h1></button>
-    <div class="content">
+    <div class="c">
+      <h1>About us</h1>
       <p>Access Canada Study Abroad Centre has offices in Toronto and Montreal, and is a company that arranges overseas study-related services such as homestays, 
-        ESL, public high schools, and airport transfers for Japanese students. Since its establishment in 2002, it has partnered with Japan's largest study abroad 
-        agents and has been accepting many students every year. Staff members are always available to support students, providing orientation upon arrival and 24-hour 
-        customer service, ensuring that students can live abroad with peace of mind. We are currently recruiting homestay families in the Toronto, Montreal, and Ottawa areas, 
-        so if you have a warm family willing to welcome Japanese students as part of their family, please feel free to contact us.</p>
-    </div>
+          ESL, public high schools, and airport transfers for Japanese students. Since its establishment in 2002, it has partnered with Japan's largest study abroad 
+          agents and has been accepting many students every year. Staff members are always available to support students, providing orientation upon arrival and 24-hour 
+          customer service, ensuring that students can live abroad with peace of mind. We are currently recruiting homestay families in the Toronto, Montreal, and Ottawa areas, 
+          so if you have a warm family willing to welcome Japanese students as part of their family, please feel free to contact us.</p>
+          
     <div class="box-2">
         <div class="text-2">
           <img src="study.jpeg" alt="image" class="image">
@@ -790,11 +837,7 @@
       <div class="container-4">
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdx2h769THWlKSXsEx42eiVUhmHw9sFxZiHi03x4B0g7JwFyA/viewform?usp=sf_link" class="button">Go to Application form</a>
       </div>
-    
-      <div class="container-5">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSefGC9YaAUlS6BP8kYRcKMCyP2UEFyzCTVkjsntzbl0jOOg3g/viewform?usp=sf_link" class="button">Go to contact form</a>
-      </div>
-
+  
       <div class="container-7">
         <h1>Application Process</h1>
         <h1>↓</h1>
@@ -823,28 +866,11 @@
         </div>
       </div>
 
-      <div class="container-6">
-        <h1>Contact us</h1>
-        <h2>Access Canada Ryugaku Centre</h2>
-        <p>Email: homestayaccesscanada@gmail.com</p>
-        <p>Tell: 437-427-7920</p>
 
+        <div class="container-5">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSefGC9YaAUlS6BP8kYRcKMCyP2UEFyzCTVkjsntzbl0jOOg3g/viewform?usp=sf_link" class="button">Go to contact form</a>
         </div>
-</div>
-        <script>
-          var coll = document.getElementsByClassName("box-1");
-          var i;
-          
-          for (i = 0; i < coll.length; i++) {
-            coll[i].addEventListener("click", function() {
-              this.classList.toggle("active");
-              var content = this.nextElementSibling;
-              if (content.style.display === "block") {
-                content.style.display = "none";
-              } else {
-                content.style.display = "block";
-              }
-            });
-          }
-          </script>
+        </div>
+        
+     
         </html>
