@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Host familiy</title>
+</head>
+<style>
+    :root {
+        --primaryColor: #2a3b8c; /* Dark Blue - Technology */
+        --secondaryColor: #ff6f00; /* Bright Orange - Energy */
+        --onPrimaryColor: #e1eaf6; /* Light Blue - Clarity */
+        --onSecondaryColor: #ffbc42; /* Soft Orange - Fun */
+        --black: #000;
+        --white: #fff;
+        --gray: #f0f0f0;
+        --red: #e74c3c; /* Red - Highlight */
+      }
+      
+      /* Resetting margin, padding, and font for all elements */
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Comic Neue", sans-serif; /* We set a font style for the entire document */
+      }
+      
+      /* Applying overflow property to HTML and body */
+      html,
+      body {
+        overflow-x: hidden; /* Prevents horizontal scrolling in the document */
+        
+    }
+   /* 通常のスタイル */
+   header {
+    font-family: "Montserrat", sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('/Users/valuedcustomer/Desktop/apply homestay/0EC0BF7F-8D80-4497-9042-19547B6749D5.JPG');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  @keyframes textMovement {
+    0% {
+      opacity: 0;
+      scale: 0.1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+   /* Styling for the text box in the header */
+   .text-box-1 {
+    width: 90%;
+    color: var(--black);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+    animation: textMovement 2s forwards;
+  }
+  
+  /* Styling for the header text */
+  .text-box-1 h1 {
+    font-size: 65px;
+  }
+  
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: #000;
+}
+
+
+li {
+  float: left;
+  color: #000;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+  color: #000;
+}
+
+.container-6{
+  text-align: center;
+  padding: 20px; /* Add padding for better spacing */
+  width: 60%; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+}
+
+.container-6 h1{
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+.container-6 h2{
+color: #000000;
+margin-bottom: 40px;
+
+}
+.container-6 p{
+margin-bottom: 40px;
+}
+.content p{
+  text-align: center;
+  padding: 20px; /* Add padding for better spacing */
+  width: 60%; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-bottom: 20px;
+  max-width: 70vh;
+  color: #000000;
+
+}
+
+.container {
+  text-align: center;
+    padding: 20px; /* Add padding for better spacing */
+    width: 100%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.container h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #217dbb;
+  margin-bottom: 30px;
+}
+
+
+.container p{
+text-align: center;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+text-align: center;
+padding: 20px; /* Add padding for better spacing */
+width: 80%; /* Adjust the width as needed */
+margin: 0 auto; /* Center the container horizontally */
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 20px;
+margin-bottom: 30px;
+margin-bottom: 20px;
+}
+
+footer{
+  background-color: #000;
+  color: #dddddd;
+}
+.container-6 h2
+{
+  color: #dddddd;
+  margin-top: 30px;
+}
+
+.container-6 p{
+  margin-top: 30px;
+}
+
+
+    @media only screen and (min-width: 600px) {
+        .container-6 {
+            margin-top: 20px;
+          }
+          
+          .container-6 h1 {
+            color: rgb(0, 0, 0);
+            margin-bottom: 20px;
+            margin-top: 60px;
+          }
+          
+          .container-6 h2{
+            margin-bottom: 20px;
+          }
+
+          .content p{
+            text-align: center;
+            padding: 20px; /* Add padding for better spacing */
+            width: 60%; /* Adjust the width as needed */
+            margin: 0 auto; /* Center the container horizontally */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            margin-bottom: 20px;
+            max-width: 70vh;
+            color: #000000;
+      
+          }
+    
+          .container {
+            text-align: center;
+            padding: 20px; /* Add padding for better spacing */
+            width: 60%; /* Adjust the width as needed */
+            margin: 0 auto; /* Center the container horizontally */
+          }
+          
+          .container h1 {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: #217dbb;
+            margin-bottom: 30px;
+          }
+          
+      
+          .container p{
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          }
+      
+        }
+
+        footer{
+          background-color: #000;
+          color: #dddddd;
+        }
+        .container-6 h2
+        {
+          color: #dddddd;
+        }
+</style>
+
+<header>
+
+  <header>
+    
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="aboutus.html">About</a></li>
+    </ul>
+  
+  
+      <div class="text-box-1">
+          <h1>ABOUT US</h1>
+      </header>
+  
+</header>
+<div class="container">
+    <p>Access Canada Study Abroad Centre has offices in Toronto and Montreal, and is a company that arranges overseas study-related services such as homestays, 
+        ESL, public high schools, and airport transfers for Japanese students. Since its establishment in 2002, it has partnered with Japan's largest study abroad 
+        agents and has been accepting many students every year. Staff members are always available to support students, providing orientation upon arrival and 
+        24-hours
+        customer service, ensuring that students can live abroad with peace of mind. We are currently recruiting homestay families in the Toronto, Montreal, and Ottawa areas, 
+        so if you have a warm family willing to welcome Japanese students as part of their family, please feel free to contact us.</p>
+    </div>
+  
+    </header>
+    <footer>
+    
+    
+        <div class="container-6">
+        <h2>Access Canada Ryugaku Centre</h2>
+        <p>Email: homestayaccesscanada@gmail.com</p>
+        <p>Tell: 437-427-7920</p>
+
+        </div>
+        </div>
+</footer>
+</html>
