@@ -36,7 +36,7 @@
     font-family: "Montserrat", sans-serif;
     min-height: 100vh;
     width: 100%;
-    background-image: url('0EC0BF7F-8D80-4497-9042-19547B6749D5.JPG');
+    background-image: url('/Users/valuedcustomer/Desktop/apply homestay/0EC0BF7F-8D80-4497-9042-19547B6749D5.JPG');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -138,12 +138,10 @@ margin-bottom: 40px;
     padding: 20px; /* Add padding for better spacing */
     width: 100%; /* Adjust the width as needed */
     margin: 0 auto; /* Center the container horizontally */
-    display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
     margin-bottom: 30px;
-    margin-bottom: 20px;
     text-align: left;
 }
 
@@ -161,7 +159,6 @@ text-align: center;
 padding: 20px; /* Add padding for better spacing */
 width: 80%; /* Adjust the width as needed */
 margin: 0 auto; /* Center the container horizontally */
-display: flex;
 flex-direction: column;
 align-items: center;
 margin-top: 20px;
@@ -214,12 +211,16 @@ footer{
             color: #000000;
       
           }
-    
           .container {
             text-align: center;
-            padding: 20px; /* Add padding for better spacing */
-            width: 60%; /* Adjust the width as needed */
-            margin: 0 auto; /* Center the container horizontally */
+              padding: 20px; /* Add padding for better spacing */
+              width: 66%; /* Adjust the width as needed */
+              margin: 0 auto; /* Center the container horizontally */
+              flex-direction: column;
+              align-items: center;
+              margin-top: 20px;
+              margin-bottom: 30px;
+              text-align: left;
           }
           
           .container h1 {
@@ -228,13 +229,18 @@ footer{
             margin-bottom: 30px;
           }
           
-      
           .container p{
-        text-align: center;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          text-align: center;
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          text-align: center;
+          padding: 20px; /* Add padding for better spacing */
+          width: 80%; /* Adjust the width as needed */
+          margin: 0 auto; /* Center the container horizontally */
+          flex-direction: column;
+          align-items: center;
+          margin-top: 20px;
+          margin-bottom: 30px;
           }
-      
-        }
 
         footer{
           background-color: #000;
@@ -244,6 +250,20 @@ footer{
         {
           color: #dddddd;
         }
+
+      }
+
+      @media screen and (max-width: 767px) {
+        .container
+        {
+          flex-direction: column;
+    align-items: center;
+        }
+        .container p {
+            width: 60%; /* iPhoneの画面幅に応じて幅を調整 */
+            text-align: center;
+        }
+    }
 </style>
 
 <header>
